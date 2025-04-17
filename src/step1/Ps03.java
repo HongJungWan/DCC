@@ -1,5 +1,8 @@
 package step1;
 
+/**
+ * 잃어버린 강아지, 상
+ */
 public class Ps03 {
     public static void main(String[] args) {
         Ps03 T = new Ps03();

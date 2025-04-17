@@ -3,7 +3,7 @@ package step1;
 import java.util.Arrays;
 
 /**
- * 사다리 타기
+ * 사다리 타기, 하
  */
 public class Ps01 {
     public static void main(String[] args) {

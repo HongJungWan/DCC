@@ -3,7 +3,7 @@ package step1;
 import java.util.Arrays;
 
 /**
- * 청소
+ * 청소, 하
  */
 public class Ps02 {
     public static void main(String[] args) {
