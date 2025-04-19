@@ -30,6 +30,7 @@ public class PS05 {
         }
 
         // 바이토닉 수열 길이의 최댓값 탐색
+        // 핵심 아이디어: 봉우리 지점
         int maxLen = 0;
 
         for (int i = 0; i < n; i++) {
