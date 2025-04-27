@@ -13,12 +13,17 @@ public class Ps04 {
         System.out.println(T.ps04(new int[]{-1, -1, -1, 1}, 0)); // 1
     }
 
+    /**
+     * 해시맵을 이용한 m 합 카운팅:
+     *   현재까지의 누적합 sum 에서 목표 m 을 뺀 값 (sum - m)이
+     *   과거에 몇 번 등장했는지 기록된 count 만큼 answer에 더한다.
+     */
     public int ps04(int[] nums, int m){
         int answer = 0;
         int sum = 0;
 
         HashMap<Integer, Integer> hashMap = new HashMap<>();
-        hashMap.put(0, 1);
+        hashMap.put(0, 1); // 누적합 0이 한 번 등장한 것으로 초기화
 
         for(int x : nums){
             sum += x;
